@@ -82,7 +82,13 @@ public class ComprobanteElectronico {
     }
 
     
+    public String toString(){
     
+        return "El numero de autorizacion es: "+this.numeroAutorizacion+"\n"+
+                "nombre del cliente: "+this.nombreCliente+"\n"+"codigo de factura"
+                +this.codigo+"\n"+"detalles: "+this.detallesEmisor+"\n"+"fecha: "+this.fecha.toString();
+    
+    }
     
     
 }

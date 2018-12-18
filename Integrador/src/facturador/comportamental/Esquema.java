@@ -5,11 +5,13 @@
  */
 package facturador.comportamental;
 
+import facturador.creacional.ComprobanteElectronico;
+
 /**
  *
  * @author Israel
  */
 public interface Esquema {
-    public void autorizar();
+    public void autorizar(ComprobanteElectronico comprobante);
     
 }

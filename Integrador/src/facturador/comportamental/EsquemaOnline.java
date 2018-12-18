@@ -5,6 +5,9 @@
  */
 package facturador.comportamental;
 
+import facturador.creacional.ComprobanteElectronico;
+import java.util.Random;
+
 /**
  *
  * @author Israel
@@ -12,8 +15,10 @@ package facturador.comportamental;
 public class EsquemaOnline implements Esquema {
 
     @Override
-    public void autorizar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void autorizar(ComprobanteElectronico comprobante) {
+        long rand = (int)(Math.random()*1000000000)+1;
+        comprobante.setCodigo(rand);
+        comprobante.setNumeroAutorizacion(String.valueOf(rand));
     }
     
 }
