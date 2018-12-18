@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Israel
  */
-public class LogoDecorator {
+public class LogoDecorator extends DetalleDecorator{
     
       ComprobanteElectronico comprobante;
     public LogoDecorator() {
