@@ -41,7 +41,10 @@ public class NotaCredito extends ComprobanteElectronico{
     }
     
     
+    public String toString(){
     
+        return super.toString()+"\ndetalles de modificaion: "+this.detalleModificacion+"\nvalor a pagar: "+this.valorAPagar;
+    }
     
     
 }

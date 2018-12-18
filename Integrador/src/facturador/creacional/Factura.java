@@ -43,7 +43,10 @@ public class Factura extends ComprobanteElectronico{
         this.total = total;
     }
 
+    public String toString(){
     
+        return super.toString()+"\nproductos: "+this.productos+"\ntotal: "+this.total;
+    }
     
     
     

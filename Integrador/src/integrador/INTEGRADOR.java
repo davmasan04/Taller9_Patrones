@@ -10,6 +10,7 @@ import facturador.comportamental.EsquemaOffline;
 import facturador.comportamental.EsquemaOnline;
 import facturador.creacional.ComprobanteElectronico;
 import facturador.creacional.ComprobantesFactory;
+import facturador.creacional.Factura;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
@@ -36,9 +37,15 @@ public class INTEGRADOR {
         LocalDate date = LocalDate.of(2018, Month.DECEMBER, 17);
         comprobante.setFecha(date);
         comprobante.setNombreCliente("Efren");
-        AutorizadorSRI sri = new AutorizadorSRI(new EsquemaOffline());
+        AutorizadorSRI sri = new AutorizadorSRI(new EsquemaOnline());
         sri.autorizar(comprobante);
-        System.out.println(comprobante.toString());
+        Factura factura = (Factura)comprobante;
+        factura.setTotal(20.00);
+        ArrayList<String> productos = new ArrayList<>();
+        productos.add("carro");
+        productos.add("mesa");
+        factura.setProductos(productos);
+        System.out.println(factura.toString());
     }
     
 }

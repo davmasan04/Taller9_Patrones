@@ -52,7 +52,10 @@ public class GuiaRemision extends ComprobanteElectronico {
     }
     
     
+    public String toString(){
     
+        return super.toString()+"\ndestino: "+this.destino+"\nplaca del vehiculo: "+this.placaVehiculo+"\nlista de productos: "+this.listaProductos;
+    }
     
     
 }
