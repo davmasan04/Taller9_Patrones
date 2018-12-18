@@ -5,6 +5,7 @@
  */
 package integrador;
 
+
 import facturador.comportamental.AutorizadorSRI;
 import facturador.comportamental.EsquemaOffline;
 import facturador.comportamental.EsquemaOnline;
@@ -19,6 +20,12 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
 import java.util.Date;
+
+import facturador.comportamental.*;
+import facturador.creacional.*;
+import java.time.*;
+import java.util.*;
+
 
 /**
  *
@@ -81,7 +88,7 @@ public class INTEGRADOR {
          
          
          System.out.println("Decorando");
-         comprobanteNota= new LogoDecorator(comprobanteNota);
+         //comprobanteNota= new LogoDecorator(comprobanteNota);
          
          
     }
