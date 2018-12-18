@@ -22,8 +22,8 @@ public class LogoDecorator extends DetalleDecorator{
     public LogoDecorator(ComprobanteElectronico comprobante) {
         this.comprobante = comprobante;
     }
-  
-    
+
+   
     
 }
  
