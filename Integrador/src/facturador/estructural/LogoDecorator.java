@@ -20,9 +20,15 @@ public class LogoDecorator extends DetalleDecorator{
     }
 
     public LogoDecorator(ComprobanteElectronico comprobante) {
-        this.comprobante = comprobante;
+        super(comprobante);
     }
-  
+      @Override
+  public List<String> getDetallesEmisor(){
+      List<String> details= super.getDetallesEmisor();
+      details.add("Logo");
+      return details;
+              
+  }
     
     
 }

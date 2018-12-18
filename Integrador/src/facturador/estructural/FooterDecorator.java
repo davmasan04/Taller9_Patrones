@@ -21,6 +21,12 @@ public class FooterDecorator extends DetalleDecorator{
     public FooterDecorator(ComprobanteElectronico comprobante) {
         this.comprobante = comprobante;
     }
-   
+     @Override
+  public List<String> getDetallesEmisor(){
+      List<String> details= super.getDetallesEmisor();
+      details.add("footer");
+      return details;
+              
+  }
     
 }
