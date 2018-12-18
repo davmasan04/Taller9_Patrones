@@ -13,9 +13,13 @@ import facturador.creacional.ComprobanteElectronico;
  */
 public class EsquemaOffline implements Esquema {
 
+   
+
     @Override
     public void autorizar(ComprobanteElectronico comprobante) {
+
         comprobante.setNumeroAutorizacion(comprobante.getClaveAcceso());
+
     }
     
 }

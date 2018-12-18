@@ -6,7 +6,9 @@
 package facturador.comportamental;
 
 import facturador.creacional.ComprobanteElectronico;
+
 import java.util.Random;
+
 
 /**
  *
@@ -14,11 +16,15 @@ import java.util.Random;
  */
 public class EsquemaOnline implements Esquema {
 
+   
+
     @Override
     public void autorizar(ComprobanteElectronico comprobante) {
+
         long rand = (int)(Math.random()*1000000000)+1;
         comprobante.setCodigo(rand);
         comprobante.setNumeroAutorizacion(String.valueOf(rand));
+
     }
     
 }
