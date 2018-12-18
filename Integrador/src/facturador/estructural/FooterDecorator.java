@@ -5,10 +5,22 @@
  */
 package facturador.estructural;
 
+import facturador.creacional.ComprobanteElectronico;
+import java.util.List;
+
 /**
  *
  * @author Israel
  */
-public class FooterDecorator {
+public class FooterDecorator extends DetalleDecorator{
+    ComprobanteElectronico comprobante;
+    public FooterDecorator() {
+        
+    }
+
+    public FooterDecorator(ComprobanteElectronico comprobante) {
+        this.comprobante = comprobante;
+    }
+   
     
 }

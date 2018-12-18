@@ -5,10 +5,25 @@
  */
 package facturador.estructural;
 
+import facturador.creacional.ComprobanteElectronico;
+import java.util.List;
+
 /**
  *
  * @author Israel
  */
 public class LogoDecorator {
     
+      ComprobanteElectronico comprobante;
+    public LogoDecorator() {
+        
+    }
+
+    public LogoDecorator(ComprobanteElectronico comprobante) {
+        this.comprobante = comprobante;
+    }
+  
+    
+    
 }
+ 

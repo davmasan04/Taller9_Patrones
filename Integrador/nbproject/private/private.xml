@@ -3,13 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Estructural/Esquema.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Creacional/NotaCredito.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Creacional/GuiaRemision.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/integrador/INTEGRADOR.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Creacional/Factura.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Creacional/ComprobanteElectronico.java</file>
-            <file>file:/C:/Users/USER/Documents/NetBeansProjects/INTEGRADOR/src/Facturador/Estructural/AutorizadorSRI.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/Creacional/Factura.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/Creacional/ComprobanteElectronico.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/Creacional/GuiaRemision.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/integrador/INTEGRADOR.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/estructural/LogoDecorator.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/Creacional/ComprobantesFactory.java</file>
+            <file>file:/C:/Users/USER/Documents/DISE;O/Taller9_Patrones/Integrador/src/Facturador/estructural/FooterDecorator.java</file>
         </group>
     </open-files>
 </project-private>
