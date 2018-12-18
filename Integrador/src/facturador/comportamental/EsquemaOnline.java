@@ -5,15 +5,22 @@
  */
 package facturador.comportamental;
 
+import facturador.creacional.ComprobanteElectronico;
+import java.util.Objects;
+
 /**
  *
  * @author Israel
  */
 public class EsquemaOnline implements Esquema {
 
+   
+
     @Override
-    public void autorizar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void autorizar(ComprobanteElectronico comprobante) {
+        long codigo=comprobante.getCodigo();
+        String cod= Objects.toString(codigo,null);
+         comprobante.setNumeroAutorizacion(cod); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

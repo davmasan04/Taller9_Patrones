@@ -5,15 +5,19 @@
  */
 package facturador.comportamental;
 
+import facturador.creacional.ComprobanteElectronico;
+
 /**
  *
  * @author Israel
  */
 public class EsquemaOffline implements Esquema {
 
+   
+
     @Override
-    public void autorizar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void autorizar(ComprobanteElectronico comprobante) {
+          comprobante.setNumeroAutorizacion(comprobante.getClaveAcceso()); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
