@@ -24,6 +24,7 @@ public class Factura extends ComprobanteElectronico{
     }
 
     public Factura() {
+        
     }
 
     public List<String> getProductos() {

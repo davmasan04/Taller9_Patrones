@@ -5,10 +5,24 @@
  */
 package facturador.comportamental;
 
+import facturador.creacional.ComprobanteElectronico;
+
 /**
  *
  * @author Israel
  */
 public class AutorizadorSRI {
+    private final Esquema esquema;
+    public AutorizadorSRI(Esquema esquema){
+        this.esquema=esquema;
+    
+    
+    }
+    
+    
+    public void Autorizar(ComprobanteElectronico comprobante){
+        esquema.autorizar(comprobante);
+   
+    }
     
 }
