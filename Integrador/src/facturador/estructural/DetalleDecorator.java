@@ -13,5 +13,24 @@ import java.util.List;
  * @author Israel
  */
 public class DetalleDecorator {
+     ComprobanteElectronico comprobante;
+    public DetalleDecorator() {
+        
+    }
+
+    public DetalleDecorator(ComprobanteElectronico comprobante) {
+        this.comprobante = comprobante;
+    }
+    
+    public List<String> getDetallesEmisor(){
+   return comprobante.getDetallesEmisor();}
+    
+    public ComprobanteElectronico getComprobante(){
+        return comprobante;
+    
+    }
+    
+    
+    
     
 }
